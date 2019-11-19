@@ -12289,8 +12289,8 @@ org.apache.juli.OneLineFormatter$2,org.apache.juli.OneLineFormatter
 org.apache.juli.DateFormatCache$Cache,org.apache.juli.DateFormatCache
 org.apache.catalina.startup.ClassLoaderFactory$2,org.apache.catalina.startup.ClassLoaderFactory
 org.apache.catalina.startup.ClassLoaderFactory$1,org.apache.catalina.startup.ClassLoaderFactory
-DEBUG - time to create similarity matrix: 13
-DEBUG - time to identify two most similar clusters: 1
+DEBUG - time to create similarity matrix: 14
+DEBUG - time to identify two most similar clusters: 2
 DEBUG - In, printDataForTwoMostSimilarClustersWithTopicsForConcerns, 
 Max Similar Clusters: 
 DEBUG - sim value(13,14): 0.0
@@ -13102,7 +13102,7 @@ DEBUG - mergedTopicItem.topicNum: 99
 DEBUG - mergedTopicItem.proportion: 3.624621062343482E-4
 DEBUG - Config.getClustersToWriteList() == null so skipping post processing
 DEBUG - after merge, clusters size: 38
-DEBUG - time to identify two most similar clusters: 0
+DEBUG - time to identify two most similar clusters: 1
 DEBUG - In, printDataForTwoMostSimilarClustersWithTopicsForConcerns, 
 Max Similar Clusters: 
 DEBUG - sim value(13,15): 0.0
@@ -23658,7 +23658,7 @@ DEBUG - mergedTopicItem.topicNum: 99
 DEBUG - mergedTopicItem.proportion: 3.624621062343482E-4
 DEBUG - Config.getClustersToWriteList() == null so skipping post processing
 DEBUG - after merge, clusters size: 25
-DEBUG - time to identify two most similar clusters: 1
+DEBUG - time to identify two most similar clusters: 0
 DEBUG - In, printDataForTwoMostSimilarClustersWithTopicsForConcerns, 
 Max Similar Clusters: 
 DEBUG - sim value(14,20): 0.0
@@ -33402,7 +33402,7 @@ DEBUG - mergedTopicItem.topicNum: 99
 DEBUG - mergedTopicItem.proportion: 0.0011255310212142861
 DEBUG - Config.getClustersToWriteList() == null so skipping post processing
 DEBUG - after merge, clusters size: 13
-DEBUG - time to identify two most similar clusters: 0
+DEBUG - time to identify two most similar clusters: 1
 DEBUG - In, printDataForTwoMostSimilarClustersWithTopicsForConcerns, 
 Max Similar Clusters: 
 DEBUG - sim value(5,12): 0.07808418105319737
@@ -38274,11 +38274,11 @@ DEBUG - mergedTopicItem.topicNum: 99
 DEBUG - mergedTopicItem.proportion: 0.001420530901662977
 DEBUG - Config.getClustersToWriteList() == null so skipping post processing
 DEBUG - after merge, clusters size: 7
-DEBUG - Time in milliseconds to compute clusters: 197
+DEBUG - Time in milliseconds to compute clusters: 202
 DEBUG - max cluster gain: 0.0
 DEBUG - num clusters at max cluster gain: 0
 DEBUG - Running smell detecion for revision tomcat-7.0.0
-DEBUG - Elapsed time in milliseconds: 11
+DEBUG - Elapsed time in milliseconds: 8
 DEBUG - Found and built clusters:
 DEBUG - 0
 DEBUG - 1
@@ -46841,7 +46841,7 @@ DEBUG - 91 : [5]
 DEBUG - 12 : [4]
 DEBUG - 4 has spf with scattered concern 38
 DEBUG - 5 has spf with scattered concern 38
-DEBUG - Elapsed time in milliseconds: 25
+DEBUG - Elapsed time in milliseconds: 22
 DEBUG - No. of vertices: 7
 DEBUG - No. of edges: 4
 DEBUG - Number of strongly connected components: 0
