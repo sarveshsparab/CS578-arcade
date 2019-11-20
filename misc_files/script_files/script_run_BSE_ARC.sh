@@ -4,4 +4,4 @@ if [ -z "$1" ]
 	echo "Application's name is missing (#1)"
 	exit 0
 fi
-./script_generic.sh $1 BSE BatchPackager
+script_generic.sh $1 BSE BCE

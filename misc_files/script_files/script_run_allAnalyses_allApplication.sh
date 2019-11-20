@@ -30,6 +30,6 @@ echo "recovery method is : $recoveryMethodName"
 for i in $(ls  "$analysesFolder"); do
 	#$i is the folder containing analyses on a portion of versions of an application
 	#echo $i $recoveryMethodName
-	./script_run_all.sh $i $recoveryMethodName 
+	script_run_all.sh $i $recoveryMethodName
 done
 exit 0

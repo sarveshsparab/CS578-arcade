@@ -56,19 +56,19 @@ rootLogDst="$AnalyseApplicationFolder/$application-$recoveryMethodName-$analysis
 smellSerFilesCollection="$AnalyseApplicationFolder/smellSer"
 mkdir $smellSerFilesCollection
 rm $smellSerFilesCollection/*
-./script_fileCollector.sh $fE1 $recoverResultFolder $smellSerFilesCollection
+script_fileCollector.sh $fE1 $recoverResultFolder $smellSerFilesCollection
 
 clusteredRsfFilesCollection="$AnalyseApplicationFolder/clusterRsf"
 mkdir $clusteredRsfFilesCollection
 rm $clusteredRsfFilesCollection/*
-./script_fileCollector.sh $fE2 $recoverResultFolder $clusteredRsfFilesCollection
+script_fileCollector.sh $fE2 $recoverResultFolder $clusteredRsfFilesCollection
 
 depsRsfFilesCollection="$AnalyseApplicationFolder/depsRsf"
 mkdir $depsRsfFilesCollection
 rm $depsRsfFilesCollection/*
-./script_fileCollector.sh $fE3 $recoverResultFolder $depsRsfFilesCollection
+script_fileCollector.sh $fE3 $recoverResultFolder $depsRsfFilesCollection
 
-./script_cleaner.sh $AnalyseApplicationFolder "$unusefulFile"
+script_cleaner.sh $AnalyseApplicationFolder "$unusefulFile"
 
 echo "running analysis : $analysisName "
 ./script_exec_$analysisName.sh  $smellSerFilesCollection $clusteredRsfFilesCollection $depsRsfFilesCollection $executionOutput

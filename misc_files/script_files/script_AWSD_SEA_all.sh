@@ -17,7 +17,7 @@ applicationName="$2"
 
 for i in $(ls  "$sourceFolder/$applicationName"); do
 #$i is just a number 
-./script_AWSD_SEA.sh $applicationName $i
+script_AWSD_SEA.sh $applicationName $i
 done
 exit 0
 

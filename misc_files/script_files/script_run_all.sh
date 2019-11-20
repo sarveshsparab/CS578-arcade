@@ -25,9 +25,9 @@ echo $recoveryMethodName
 
 
 
-./script_generic.sh $1 MEA $recoveryMethodName
-./script_STIC.sh $1 $recoveryMethodName
-./script_generic.sh $1 C2C $recoveryMethodName
-./script_generic.sh $1 BDMA $recoveryMethodName
-./script_generic.sh $1 SDA $recoveryMethodName
-./script_generic.sh $1 BSE $recoveryMethodName
+script_generic.sh $1 MEA $recoveryMethodName
+script_STIC.sh $1 $recoveryMethodName
+script_generic.sh $1 C2C $recoveryMethodName
+script_generic.sh $1 BDMA $recoveryMethodName
+script_generic.sh $1 SDA $recoveryMethodName
+script_generic.sh $1 BSE $recoveryMethodName
